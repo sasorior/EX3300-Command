@@ -1,0 +1,4 @@
+edit  #進入編輯模式
+run file list  #查看目前本地儲存清單
+run file list detail  #查看本地儲存清單詳細資料
+save <檔案名稱>.cfg  #儲存當前組態設定檔
