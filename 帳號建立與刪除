@@ -2,3 +2,4 @@ set system login user louis0512 class super-user #juniper建帳號
 set system login user louis0512 authentication plain-text-password #juniper建密碼
 commit
 
+delete system login user jack8316 #juniper刪帳號
