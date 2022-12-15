@@ -1,0 +1,17 @@
+show chassis routing-engine  #查看系統效能
+
+show system alarms  #查看系統警告
+
+show chassis alarms  #查看硬體警告
+
+show log messages  #查看Log紀錄
+
+show chassis enviroment  #硬碟查看 ※fan顯示high speed可能表示機房溫度過高
+
+show arp  #查詢arp資料(ip、mac、vlan)
+
+show ethernet-switching table | match <條件> #查詢mac對應端口或ae
+EX:
+show spanning-tree interface |match xe-1 -查spanning tree
+show interfaces terse |match ae -查左右環
+
