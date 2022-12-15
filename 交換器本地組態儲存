@@ -2,3 +2,9 @@ edit  #進入編輯模式
 run file list  #查看目前本地儲存清單
 run file list detail  #查看本地儲存清單詳細資料
 save <檔案名稱>.cfg  #儲存當前組態設定檔
+
+rollback <num> #還原至某個設定點(rollback 輸入? 可查看所有可還原點)
+
+commit confired <time> #遠端操作時防止指令變更後，無法連線至該設備，需再commit一次此次操作才會生效。※time預設為十分鐘
+
+show | compare #指令變更前後比較(commit前使用)
